@@ -48,7 +48,7 @@ jobs:
 
   build-host:
     needs: [validation]
-    env: 
+    env:
       MACOSX_DEPLOYMENT_TARGET: 13.3
     strategy:
       fail-fast: false
