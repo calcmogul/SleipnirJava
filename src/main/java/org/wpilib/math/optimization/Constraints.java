@@ -21,7 +21,7 @@ public final class Constraints {
    * Equality operator that returns an equality constraint for a double and a Variable.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Equality constraints.
    */
   public static EqualityConstraints eq(double lhs, Variable rhs) {
@@ -32,7 +32,7 @@ public final class Constraints {
    * Equality operator that returns an equality constraint for a Variable and a double.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Equality constraints.
    */
   public static EqualityConstraints eq(Variable lhs, double rhs) {
@@ -43,7 +43,7 @@ public final class Constraints {
    * Equality operator that returns an equality constraint for two Variables.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Equality constraints.
    */
   public static EqualityConstraints eq(Variable lhs, Variable rhs) {
@@ -54,7 +54,7 @@ public final class Constraints {
    * Equality operator that returns an equality constraint for a double and a VariableBlock.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Equality constraints.
    */
   public static EqualityConstraints eq(double lhs, VariableBlock rhs) {
@@ -65,7 +65,7 @@ public final class Constraints {
    * Equality operator that returns an equality constraint for a Variable and a VariableBlock.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Equality constraints.
    */
   public static EqualityConstraints eq(Variable lhs, VariableBlock rhs) {
@@ -76,7 +76,7 @@ public final class Constraints {
    * Equality operator that returns an equality constraint for a double and a VariableMatrix.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Equality constraints.
    */
   public static EqualityConstraints eq(double lhs, VariableMatrix rhs) {
@@ -87,7 +87,7 @@ public final class Constraints {
    * Equality operator that returns an equality constraint for a Variable and a VariableMatrix.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Equality constraints.
    */
   public static EqualityConstraints eq(Variable lhs, VariableMatrix rhs) {
@@ -106,7 +106,7 @@ public final class Constraints {
    * Equality operator that returns an equality constraint for a VariableBlock and a double.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Equality constraints.
    */
   public static EqualityConstraints eq(VariableBlock lhs, double rhs) {
@@ -117,7 +117,7 @@ public final class Constraints {
    * Equality operator that returns an equality constraint for a VariableBlock and a Variable.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Equality constraints.
    */
   public static EqualityConstraints eq(VariableBlock lhs, Variable rhs) {
@@ -128,7 +128,7 @@ public final class Constraints {
    * Equality operator that returns an equality constraint for a VariableMatrix and a double.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Equality constraints.
    */
   public static EqualityConstraints eq(VariableMatrix lhs, double rhs) {
@@ -139,7 +139,7 @@ public final class Constraints {
    * Equality operator that returns an equality constraint for a VariableMatrix and a Variable.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Equality constraints.
    */
   public static EqualityConstraints eq(VariableMatrix lhs, Variable rhs) {
@@ -158,7 +158,7 @@ public final class Constraints {
    * Equality operator that returns an equality constraint for two VariableBlocks.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Equality constraints.
    */
   public static EqualityConstraints eq(VariableBlock lhs, VariableBlock rhs) {
@@ -169,7 +169,7 @@ public final class Constraints {
    * Equality operator that returns an equality constraint for a VariableBlock and a VariableMatrix.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Equality constraints.
    */
   public static EqualityConstraints eq(VariableBlock lhs, VariableMatrix rhs) {
@@ -180,7 +180,7 @@ public final class Constraints {
    * Equality operator that returns an equality constraint for a VariableMatrix and a VariableBlock.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Equality constraints.
    */
   public static EqualityConstraints eq(VariableMatrix lhs, VariableBlock rhs) {
@@ -191,7 +191,7 @@ public final class Constraints {
    * Equality operator that returns an equality constraint for a double[][] and a VariableBlock.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Equality constraints.
    */
   public static EqualityConstraints eq(double[][] lhs, VariableBlock rhs) {
@@ -202,7 +202,7 @@ public final class Constraints {
    * Equality operator that returns an equality constraint for a SimpleMatrix and a VariableBlock.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Equality constraints.
    */
   public static EqualityConstraints eq(SimpleMatrix lhs, VariableBlock rhs) {
@@ -213,7 +213,7 @@ public final class Constraints {
    * Equality operator that returns an equality constraint for a double array and a VariableMatrix.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Equality constraints.
    */
   public static EqualityConstraints eq(double[][] lhs, VariableMatrix rhs) {
@@ -224,7 +224,7 @@ public final class Constraints {
    * Equality operator that returns an equality constraint for a SimpleMatrix and a VariableMatrix.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Equality constraints.
    */
   public static EqualityConstraints eq(SimpleMatrix lhs, VariableMatrix rhs) {
@@ -235,7 +235,7 @@ public final class Constraints {
    * Equality operator that returns an equality constraint for a VariableBlock and a double array.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Equality constraints.
    */
   public static EqualityConstraints eq(VariableBlock lhs, double[][] rhs) {
@@ -246,7 +246,7 @@ public final class Constraints {
    * Equality operator that returns an equality constraint for a VariableBlock and a SimpleMatrix.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Equality constraints.
    */
   public static EqualityConstraints eq(VariableBlock lhs, SimpleMatrix rhs) {
@@ -257,7 +257,7 @@ public final class Constraints {
    * Equality operator that returns an equality constraint for a VariableMatrix and a double array.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Equality constraints.
    */
   public static EqualityConstraints eq(VariableMatrix lhs, double[][] rhs) {
@@ -268,7 +268,7 @@ public final class Constraints {
    * Equality operator that returns an equality constraint for a VariableMatrix and a SimpleMatrix.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Equality constraints.
    */
   public static EqualityConstraints eq(VariableMatrix lhs, SimpleMatrix rhs) {
@@ -279,7 +279,7 @@ public final class Constraints {
    * Equality operator that returns an equality constraint for two VariableMatrices.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Equality constraints.
    */
   public static EqualityConstraints eq(VariableMatrix lhs, VariableMatrix rhs) {
@@ -303,7 +303,7 @@ public final class Constraints {
    * Variable.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints lt(double lhs, Variable rhs) {
@@ -315,7 +315,7 @@ public final class Constraints {
    * double.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints lt(Variable lhs, double rhs) {
@@ -326,7 +326,7 @@ public final class Constraints {
    * Less-than comparison operator that returns an inequality constraint for two Variables.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints lt(Variable lhs, Variable rhs) {
@@ -338,7 +338,7 @@ public final class Constraints {
    * VariableBlock.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints lt(double lhs, VariableBlock rhs) {
@@ -350,7 +350,7 @@ public final class Constraints {
    * VariableBlock.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints lt(Variable lhs, VariableBlock rhs) {
@@ -362,7 +362,7 @@ public final class Constraints {
    * VariableMatrix.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints lt(double lhs, VariableMatrix rhs) {
@@ -374,7 +374,7 @@ public final class Constraints {
    * VariableMatrix.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints lt(Variable lhs, VariableMatrix rhs) {
@@ -386,7 +386,7 @@ public final class Constraints {
    * double.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints lt(VariableBlock lhs, double rhs) {
@@ -398,7 +398,7 @@ public final class Constraints {
    * Variable.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints lt(VariableBlock lhs, Variable rhs) {
@@ -410,7 +410,7 @@ public final class Constraints {
    * double.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints lt(VariableMatrix lhs, double rhs) {
@@ -422,7 +422,7 @@ public final class Constraints {
    * Variable.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints lt(VariableMatrix lhs, Variable rhs) {
@@ -433,7 +433,7 @@ public final class Constraints {
    * Less-than comparison operator that returns an inequality constraint for two VariableBlocks.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints lt(VariableBlock lhs, VariableBlock rhs) {
@@ -445,7 +445,7 @@ public final class Constraints {
    * VariableMatrix.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints lt(VariableBlock lhs, VariableMatrix rhs) {
@@ -457,7 +457,7 @@ public final class Constraints {
    * VariableBlock.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints lt(VariableMatrix lhs, VariableBlock rhs) {
@@ -469,7 +469,7 @@ public final class Constraints {
    * VariableBlock.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Equality constraints.
    */
   public static InequalityConstraints lt(double[][] lhs, VariableBlock rhs) {
@@ -481,7 +481,7 @@ public final class Constraints {
    * VariableBlock.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Equality constraints.
    */
   public static InequalityConstraints lt(SimpleMatrix lhs, VariableBlock rhs) {
@@ -493,7 +493,7 @@ public final class Constraints {
    * VariableMatrix.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Equality constraints.
    */
   public static InequalityConstraints lt(double[][] lhs, VariableMatrix rhs) {
@@ -505,7 +505,7 @@ public final class Constraints {
    * VariableMatrix.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Equality constraints.
    */
   public static InequalityConstraints lt(SimpleMatrix lhs, VariableMatrix rhs) {
@@ -517,7 +517,7 @@ public final class Constraints {
    * double array.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Equality constraints.
    */
   public static InequalityConstraints lt(VariableBlock lhs, double[][] rhs) {
@@ -529,7 +529,7 @@ public final class Constraints {
    * SimpleMatrix.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Equality constraints.
    */
   public static InequalityConstraints lt(VariableBlock lhs, SimpleMatrix rhs) {
@@ -541,7 +541,7 @@ public final class Constraints {
    * double array.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Equality constraints.
    */
   public static InequalityConstraints lt(VariableMatrix lhs, double[][] rhs) {
@@ -553,7 +553,7 @@ public final class Constraints {
    * SimpleMatrix.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Equality constraints.
    */
   public static InequalityConstraints lt(VariableMatrix lhs, SimpleMatrix rhs) {
@@ -564,7 +564,7 @@ public final class Constraints {
    * Less-than comparison operator that returns an inequality constraint for two VariableMatrices.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints lt(VariableMatrix lhs, VariableMatrix rhs) {
@@ -578,7 +578,7 @@ public final class Constraints {
    * and a Variable.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints le(double lhs, Variable rhs) {
@@ -590,7 +590,7 @@ public final class Constraints {
    * and a double.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints le(Variable lhs, double rhs) {
@@ -602,7 +602,7 @@ public final class Constraints {
    * Variables.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints le(Variable lhs, Variable rhs) {
@@ -614,7 +614,7 @@ public final class Constraints {
    * and a VariableBlock.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints le(double lhs, VariableBlock rhs) {
@@ -626,7 +626,7 @@ public final class Constraints {
    * and a VariableBlock.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints le(Variable lhs, VariableBlock rhs) {
@@ -638,7 +638,7 @@ public final class Constraints {
    * and a VariableMatrix.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints le(double lhs, VariableMatrix rhs) {
@@ -650,7 +650,7 @@ public final class Constraints {
    * and a VariableMatrix.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints le(Variable lhs, VariableMatrix rhs) {
@@ -662,7 +662,7 @@ public final class Constraints {
    * VariableBlock and a double.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints le(VariableBlock lhs, double rhs) {
@@ -674,7 +674,7 @@ public final class Constraints {
    * VariableBlock and a Variable.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints le(VariableBlock lhs, Variable rhs) {
@@ -686,7 +686,7 @@ public final class Constraints {
    * VariableMatrix and a double.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints le(VariableMatrix lhs, double rhs) {
@@ -698,7 +698,7 @@ public final class Constraints {
    * VariableMatrix and a Variable.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints le(VariableMatrix lhs, Variable rhs) {
@@ -710,7 +710,7 @@ public final class Constraints {
    * VariableBlocks.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints le(VariableBlock lhs, VariableBlock rhs) {
@@ -722,7 +722,7 @@ public final class Constraints {
    * VariableBlock and a VariableMatrix.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints le(VariableBlock lhs, VariableMatrix rhs) {
@@ -734,7 +734,7 @@ public final class Constraints {
    * VariableMatrix and a VariableBlock.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints le(VariableMatrix lhs, VariableBlock rhs) {
@@ -746,7 +746,7 @@ public final class Constraints {
    * array and a VariableBlock.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Equality constraints.
    */
   public static InequalityConstraints le(double[][] lhs, VariableBlock rhs) {
@@ -758,7 +758,7 @@ public final class Constraints {
    * SimpleMatrix and a VariableBlock.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Equality constraints.
    */
   public static InequalityConstraints le(SimpleMatrix lhs, VariableBlock rhs) {
@@ -770,7 +770,7 @@ public final class Constraints {
    * array and a VariableMatrix.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Equality constraints.
    */
   public static InequalityConstraints le(double[][] lhs, VariableMatrix rhs) {
@@ -782,7 +782,7 @@ public final class Constraints {
    * SimpleMatrix and a VariableMatrix.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Equality constraints.
    */
   public static InequalityConstraints le(SimpleMatrix lhs, VariableMatrix rhs) {
@@ -794,7 +794,7 @@ public final class Constraints {
    * VariableBlock and a double array.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Equality constraints.
    */
   public static InequalityConstraints le(VariableBlock lhs, double[][] rhs) {
@@ -806,7 +806,7 @@ public final class Constraints {
    * VariableBlock and a SimpleMatrix.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Equality constraints.
    */
   public static InequalityConstraints le(VariableBlock lhs, SimpleMatrix rhs) {
@@ -818,7 +818,7 @@ public final class Constraints {
    * VariableMatrix and a double array.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Equality constraints.
    */
   public static InequalityConstraints le(VariableMatrix lhs, double[][] rhs) {
@@ -830,7 +830,7 @@ public final class Constraints {
    * VariableMatrix and a SimpleMatrix.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Equality constraints.
    */
   public static InequalityConstraints le(VariableMatrix lhs, SimpleMatrix rhs) {
@@ -842,7 +842,7 @@ public final class Constraints {
    * VariableMatrices.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints le(VariableMatrix lhs, VariableMatrix rhs) {
@@ -856,7 +856,7 @@ public final class Constraints {
    * Variable.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints gt(double lhs, Variable rhs) {
@@ -868,7 +868,7 @@ public final class Constraints {
    * double.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints gt(Variable lhs, double rhs) {
@@ -879,7 +879,7 @@ public final class Constraints {
    * Greater-than comparison operator that returns an inequality constraint for two Variables.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints gt(Variable lhs, Variable rhs) {
@@ -891,7 +891,7 @@ public final class Constraints {
    * VariableBlock.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints gt(double lhs, VariableBlock rhs) {
@@ -903,7 +903,7 @@ public final class Constraints {
    * VariableBlock.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints gt(Variable lhs, VariableBlock rhs) {
@@ -915,7 +915,7 @@ public final class Constraints {
    * VariableMatrix.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints gt(double lhs, VariableMatrix rhs) {
@@ -927,7 +927,7 @@ public final class Constraints {
    * VariableMatrix.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints gt(Variable lhs, VariableMatrix rhs) {
@@ -939,7 +939,7 @@ public final class Constraints {
    * a double.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints gt(VariableBlock lhs, double rhs) {
@@ -951,7 +951,7 @@ public final class Constraints {
    * a Variable.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints gt(VariableBlock lhs, Variable rhs) {
@@ -963,7 +963,7 @@ public final class Constraints {
    * a double.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints gt(VariableMatrix lhs, double rhs) {
@@ -975,7 +975,7 @@ public final class Constraints {
    * a Variable.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints gt(VariableMatrix lhs, Variable rhs) {
@@ -986,7 +986,7 @@ public final class Constraints {
    * Greater-than comparison operator that returns an inequality constraint for two VariableBlocks.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints gt(VariableBlock lhs, VariableBlock rhs) {
@@ -998,7 +998,7 @@ public final class Constraints {
    * a VariableMatrix.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints gt(VariableBlock lhs, VariableMatrix rhs) {
@@ -1010,7 +1010,7 @@ public final class Constraints {
    * a VariableBlock.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints gt(VariableMatrix lhs, VariableBlock rhs) {
@@ -1022,7 +1022,7 @@ public final class Constraints {
    * VariableBlock.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Equality constraints.
    */
   public static InequalityConstraints gt(double[][] lhs, VariableBlock rhs) {
@@ -1034,7 +1034,7 @@ public final class Constraints {
    * VariableBlock.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Equality constraints.
    */
   public static InequalityConstraints gt(SimpleMatrix lhs, VariableBlock rhs) {
@@ -1046,7 +1046,7 @@ public final class Constraints {
    * VariableMatrix.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Equality constraints.
    */
   public static InequalityConstraints gt(double[][] lhs, VariableMatrix rhs) {
@@ -1058,7 +1058,7 @@ public final class Constraints {
    * VariableMatrix.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Equality constraints.
    */
   public static InequalityConstraints gt(SimpleMatrix lhs, VariableMatrix rhs) {
@@ -1070,7 +1070,7 @@ public final class Constraints {
    * a double array.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Equality constraints.
    */
   public static InequalityConstraints gt(VariableBlock lhs, double[][] rhs) {
@@ -1082,7 +1082,7 @@ public final class Constraints {
    * a SimpleMatrix.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Equality constraints.
    */
   public static InequalityConstraints gt(VariableBlock lhs, SimpleMatrix rhs) {
@@ -1094,7 +1094,7 @@ public final class Constraints {
    * a double array.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Equality constraints.
    */
   public static InequalityConstraints gt(VariableMatrix lhs, double[][] rhs) {
@@ -1106,7 +1106,7 @@ public final class Constraints {
    * a SimpleMatrix.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Equality constraints.
    */
   public static InequalityConstraints gt(VariableMatrix lhs, SimpleMatrix rhs) {
@@ -1118,7 +1118,7 @@ public final class Constraints {
    * VariableMatrices.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints gt(VariableMatrix lhs, VariableMatrix rhs) {
@@ -1132,7 +1132,7 @@ public final class Constraints {
    * and a Variable.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints ge(double lhs, Variable rhs) {
@@ -1144,7 +1144,7 @@ public final class Constraints {
    * Variable and a double.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints ge(Variable lhs, double rhs) {
@@ -1156,7 +1156,7 @@ public final class Constraints {
    * Variables.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints ge(Variable lhs, Variable rhs) {
@@ -1168,7 +1168,7 @@ public final class Constraints {
    * and a VariableBlock.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints ge(double lhs, VariableBlock rhs) {
@@ -1180,7 +1180,7 @@ public final class Constraints {
    * Variable and a VariableBlock.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints ge(Variable lhs, VariableBlock rhs) {
@@ -1192,7 +1192,7 @@ public final class Constraints {
    * and a VariableMatrix.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints ge(double lhs, VariableMatrix rhs) {
@@ -1204,7 +1204,7 @@ public final class Constraints {
    * Variable and a VariableMatrix.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints ge(Variable lhs, VariableMatrix rhs) {
@@ -1224,7 +1224,7 @@ public final class Constraints {
    * VariableBlock and a double.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints ge(VariableBlock lhs, double rhs) {
@@ -1236,7 +1236,7 @@ public final class Constraints {
    * VariableBlock and a Variable.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints ge(VariableBlock lhs, Variable rhs) {
@@ -1248,7 +1248,7 @@ public final class Constraints {
    * VariableMatrix and a double.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints ge(VariableMatrix lhs, double rhs) {
@@ -1260,7 +1260,7 @@ public final class Constraints {
    * VariableMatrix and a Variable.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints ge(VariableMatrix lhs, Variable rhs) {
@@ -1280,7 +1280,7 @@ public final class Constraints {
    * VariableBlocks.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints ge(VariableBlock lhs, VariableBlock rhs) {
@@ -1292,7 +1292,7 @@ public final class Constraints {
    * VariableBlock and a VariableMatrix.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints ge(VariableBlock lhs, VariableMatrix rhs) {
@@ -1304,7 +1304,7 @@ public final class Constraints {
    * VariableMatrix and a VariableBlock.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints ge(VariableMatrix lhs, VariableBlock rhs) {
@@ -1316,7 +1316,7 @@ public final class Constraints {
    * array and a VariableBlock.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Equality constraints.
    */
   public static InequalityConstraints ge(double[][] lhs, VariableBlock rhs) {
@@ -1328,7 +1328,7 @@ public final class Constraints {
    * SimpleMatrix and a VariableBlock.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Equality constraints.
    */
   public static InequalityConstraints ge(SimpleMatrix lhs, VariableBlock rhs) {
@@ -1340,7 +1340,7 @@ public final class Constraints {
    * array and a VariableMatrix.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Equality constraints.
    */
   public static InequalityConstraints ge(double[][] lhs, VariableMatrix rhs) {
@@ -1352,7 +1352,7 @@ public final class Constraints {
    * SimpleMatrix and a VariableMatrix.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Equality constraints.
    */
   public static InequalityConstraints ge(SimpleMatrix lhs, VariableMatrix rhs) {
@@ -1364,7 +1364,7 @@ public final class Constraints {
    * VariableBlock and a double array.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Equality constraints.
    */
   public static InequalityConstraints ge(VariableBlock lhs, double[][] rhs) {
@@ -1376,7 +1376,7 @@ public final class Constraints {
    * VariableBlock and a SimpleMatrix.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Equality constraints.
    */
   public static InequalityConstraints ge(VariableBlock lhs, SimpleMatrix rhs) {
@@ -1388,7 +1388,7 @@ public final class Constraints {
    * VariableMatrix and a double array.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Equality constraints.
    */
   public static InequalityConstraints ge(VariableMatrix lhs, double[][] rhs) {
@@ -1400,7 +1400,7 @@ public final class Constraints {
    * VariableMatrix and a SimpleMatrix.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Equality constraints.
    */
   public static InequalityConstraints ge(VariableMatrix lhs, SimpleMatrix rhs) {
@@ -1412,7 +1412,7 @@ public final class Constraints {
    * VariableMatrices.
    *
    * @param lhs Left-hand side.
-   * @param rhs Left-hand side.
+   * @param rhs Right-hand side.
    * @return Inequality constraints.
    */
   public static InequalityConstraints ge(VariableMatrix lhs, VariableMatrix rhs) {
