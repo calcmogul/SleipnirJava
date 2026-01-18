@@ -56,7 +56,7 @@ class DifferentialDriveOCPTest {
       problem.setMaxTimestep(3.0);
 
       // Set up cost
-      problem.minimize(problem.dt().times(VariableMatrix.ones(N + 1, 1)).get(0));
+      problem.minimize(problem.dt().times(VariableMatrix.ones(N + 1, 1)));
 
       assertEquals(ExpressionType.LINEAR, problem.costFunctionType());
       assertEquals(ExpressionType.NONLINEAR, problem.equalityConstraintType());

@@ -51,7 +51,7 @@ class FlywheelOCPTest {
 
       // Set up cost
       var r_mat = new VariableMatrix(SimpleMatrix.filled(1, N + 1, r));
-      problem.minimize(r_mat.minus(problem.X()).times(r_mat.minus(problem.X()).T()).get(0));
+      problem.minimize(r_mat.minus(problem.X()).times(r_mat.minus(problem.X()).T()));
 
       assertEquals(ExpressionType.QUADRATIC, problem.costFunctionType());
       assertEquals(ExpressionType.LINEAR, problem.equalityConstraintType());

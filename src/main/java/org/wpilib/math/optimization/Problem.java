@@ -119,6 +119,20 @@ public class Problem implements AutoCloseable {
   }
 
   /**
+   * Tells the solver to minimize the output of the given cost function.
+   *
+   * <p>Note that this is optional. If only constraints are specified, the solver will find the
+   * closest solution to the initial conditions that's in the feasible set.
+   *
+   * @param cost The cost function to minimize. An assertion is raised if the VariableMatrix isn't
+   *     1x1.
+   */
+  public void minimize(VariableMatrix cost) {
+    assert cost.rows() == 1 && cost.cols() == 1;
+    minimize(cost.get(0, 0));
+  }
+
+  /**
    * Tells the solver to maximize the output of the given objective function.
    *
    * <p>Note that this is optional. If only constraints are specified, the solver will find the
@@ -128,6 +142,20 @@ public class Problem implements AutoCloseable {
    */
   public void maximize(Variable objective) {
     ProblemJNI.maximize(m_handle, objective.getHandle());
+  }
+
+  /**
+   * Tells the solver to maximize the output of the given objective function.
+   *
+   * <p>Note that this is optional. If only constraints are specified, the solver will find the
+   * closest solution to the initial conditions that's in the feasible set.
+   *
+   * @param objective The objective function to maximize. An assertion is raised if the
+   *     VariableMatrix isn't 1x1.
+   */
+  public void maximize(VariableMatrix objective) {
+    assert objective.rows() == 1 && objective.cols() == 1;
+    maximize(objective.get(0, 0));
   }
 
   /**
