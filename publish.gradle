@@ -7,7 +7,7 @@ ext.licenseFile = files("$rootDir/LICENSE.md")
 
 def templateSleipnirJavaFile = "SleipnirJava.json"
 
-def pubVersion = '2026.0.0'
+def pubVersion = '2026.0.1'
 
 def outputsFolder = file("$buildDir/outputs")
 
